@@ -26,7 +26,10 @@ with placeholder.container():
         with st.form("Question"):
             st.subheader(ask)
             answer_select = st.radio("", select)
-            submit_answer = st.form_submit_button("Submit")
+            if language == 'english':
+                submit_answer = st.form_submit_button("Submit")
+            elif language == 'chinese':
+                submit_answer = st.form_submit_button("提交")
 
     if submit_answer or st.session_state.load_state_2:
         st.session_state.load_state_2 = True
@@ -56,7 +59,10 @@ with placeholder.container():
         question_number = question_no[1]+1
         st.write(reason)
         st.session_state['scores'] = scoring
-        submit_qns = st.button("Next")
+        if language == 'english':
+            submit_qns = st.button("Finish")
+        elif language == 'chinese':
+            submit_qns = st.button("完成")
         if submit_qns:
             placeholder.empty()
             del st.session_state["load_state_2"]
