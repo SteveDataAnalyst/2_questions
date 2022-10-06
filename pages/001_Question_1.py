@@ -22,7 +22,10 @@ with placeholder.container():
         with st.form("Question"):
             st.subheader(ask)
             answer_select = st.radio("", select)
-            submit_answer = st.form_submit_button("Submit")
+            if language == 'english':
+                submit_answer = st.form_submit_button("Submit")
+            elif language == 'chinese':
+                submit_answer = st.form_submit_button("提交")
 
     if submit_answer or st.session_state.load_state_1:
         st.session_state.load_state_1 = True

@@ -135,7 +135,7 @@ chinese_scam_question_data = [
            "\n1) 诈骗者可能会创建虚假文章, 内容夸大投资所带来的利润丰厚的机会, 看起来像是来自真实新闻网站."
            "\n2）他们还可能引用名人的虚假评论，以使您相信这项投资已得到他们的认可."},
     {"image": "https://github.com/SteveDataAnalyst/SDO/raw/main/quiz-pics/q17.jpg",
-    "text": "",
+    "text": "您收到一则未知来源的信息, 信息内容如下：‘你好，我叫Aaron,是職業紹介所的。你感兴趣吗？居家办公,基本工资$100/天等等",
     "question": "您是否要回复对方？",
     "selection": ["回复对方表示有兴趣.", "不理会它."],
     "answer": "不理会它.",
@@ -144,7 +144,7 @@ chinese_scam_question_data = [
            "\n2) 如果有莫名的工作机会找上门, 请始终通过官方渠道与招聘公司核实工作机 会 的真实性."
            "\n3) 洗黑钱是一种严重的犯罪行为 ,银行客户需承担任何在帐户中所进行交易的 法律责任."},
     {"image": "https://github.com/SteveDataAnalyst/SDO/raw/main/quiz-pics/q18.jpg",
-    "text": "",
+    "text": "您收到一则未知来源的信息, 信息内容如下：'Shopee邀请您体验在线赚取佣金。每日收入260元。请给我留言Whatsapp wa.me/xxxxxxxx' ",
     "question": "您是否想试试看自己的运气来获得这份工作？",
     "selection": ["不理会它.", "回复对方表示有兴趣."],
     "answer": "不理会它.",
@@ -153,7 +153,7 @@ chinese_scam_question_data = [
            "\n2) 如果有莫名的工作机会找上门, 请始终通过官方渠道与招聘公司核实工作机会的真实性."
            "\n3) 洗黑钱是一种严重的犯罪行为 ,银行客户需承担任何在帐户中所进行交易的 法律责任."},
     {"image": "https://github.com/SteveDataAnalyst/SDO/raw/main/quiz-pics/q19.jpg",
-     "text": "您收到来自未知来源的消息",
+     "text": "您收到一则未知来源的信息, 信息内容如下：'你好，我们是Lazada的销售部。这兼职可以在家工作，也可以通过手机工作。每天可轻松赚取100-500新元。'",
      "question": "您是否想试试看自己的运气来获得这份工作？",
      "selection": ["回复对方表示有兴趣.", "不理会它."],
      "answer": "不理会它.",
@@ -162,7 +162,7 @@ chinese_scam_question_data = [
             "\n2) 如果有莫名的工作机会找上门, 请始终通过官方渠道与招聘公司核实工作机 会 的真实性."
             "\n3) 洗黑钱是一种严重的犯罪行为 ,银行客户需承担任何在帐户中所进行交易的 法律责任."},
     {"image": "https://github.com/SteveDataAnalyst/SDO/raw/main/quiz-pics/q20.jpg",
-     "text": "您收到来自未知来源的消息",
+     "text": "您收到一则未知来源的信息, 信息内容如下：'您的 Singpass 已过期，出于安全考虑，您可以通过链接重新申请.'",
      "question": "您是否应该点击链接来重新启用 Singapass？",
      "selection": ["点击链接来重新启用 Singapass.", "不可点击链接。即刻删除此信息"],
      "answer": "不可点击链接。即刻删除此信息",
@@ -170,7 +170,7 @@ chinese_scam_question_data = [
             "\n1) 不要相信自称来自政府部门但网址没有“gov.sg”的链接或电子邮件."
             "\n2) 这是政府机构使用的官方链接缩短器 (https://go.gov.sg)."},
      {"image": "https://github.com/SteveDataAnalyst/SDO/raw/main/quiz-pics/q21.jpg",
-      "text": "您收到来自未知来源的消息",
+      "text": "您收到一则未知来源的信息, 信息内容如下：'您的华侨银行账户的交易功能将被暂停. 为防止您的帐户被锁定,请在12月26日前更新'",
       "question": "您应当点击这个链接吗？",
       "selection": ["点击链接来看是怎么一回事?",
                     "不可点击链接.即刻删除此信息"],
@@ -179,7 +179,7 @@ chinese_scam_question_data = [
              "\n1) 不要点击邮件中的任何附件或链接，因为这通常会导致将病毒或恶意软件安 装到您的设备中. 不要理会并删除此邮件."
              "\n2) 上网游览 www.scamalert.sg 以了解更多关于诈骗信息，或拨打反诈骗热线 1800-722-6688."},
     {"image": "https://github.com/SteveDataAnalyst/SDO/raw/main/quiz-pics/q22.jpg",
-     "text": "您收到来自未知来源的消息",
+     "text": "您收到一则未知来源的信息, 信息内容如下：'于7月6日成功完成了一次性1000新加坡元的资金转账,从(号账户:2952)到VELOCITY_KICKZ（号账户:1038)' 如果不是你，请点击链接来了解详情",
      "question": "您是否应当联系对方或点击链接？",
      "selection": ["不可点击链接.即刻删除此信息.", "联系对方或点击链接去了解详情."],
      "answer": "不可点击链接.即刻删除此信息.",
@@ -196,7 +196,7 @@ chinese_scam_question_data = [
             "\n1) 不要点击邮件中的任何附件或链接，因为这通常会导致将病毒或恶意软件安 装到您的设备中. 不要理会并删除此邮件."
             "\n2) 上网游览 www.scamalert.sg 以了解更多关于诈骗信息，或拨打反诈骗热线 1800-722-6688."},
     {"image": "https://github.com/SteveDataAnalyst/SDO/raw/main/quiz-pics/q24.jpg",
-     "text": "您收到来自未知来源的消息",
+     "text": "您收到一则未知来源的信息, 信息内容如下：'上次账单,我们相信我们已经向您收取了两次费用。因此，我们已向您退还342.54新元. 请按照以下说明存入您的退款'",
      "question": "您是否应该点击链接来取回退款?",
      "selection": ["点击链接来取回退款.", "不理会它."],
      "answer": "不理会它.",
@@ -204,7 +204,8 @@ chinese_scam_question_data = [
             "\n1) 不要点击邮件中的任何附件或链接，因为这通常会导致将病毒或恶意软件安 装到您的设备中. 不要理会并删除此邮件."
             "\n2) 上网游览 www.scamalert.sg 以了解更多关于诈骗信息，或拨打反诈骗热线 1800-722-6688."},
     {"image": "https://github.com/SteveDataAnalyst/SDO/raw/main/quiz-pics/q25.jpg",
-     "text": "您收到来自未知来源的消息",
+     "text": "您收到一则未知来源的信息, 信息内容如下：'亲爱的用户，由于最近的数据泄露，您的singpass出于某些安全原因已被锁定。"
+     "请尽快登录并更新您的信息来重新激活您的帐户'",
      "question": "您应该点击“Activate Now”按钮吗？",
      "selection": [
          "不理会它.",
@@ -214,7 +215,7 @@ chinese_scam_question_data = [
             "\n1) 不要点击邮件中的任何附件或链接，因为这通常会导致将病毒或恶意软件安 装到您的设备中. 不要理会并删除此邮件."
             "\n2) 上网游览 www.scamalert.sg 以了解更多关于诈骗信息，或拨打反诈骗热线 1800-722-6688."},
     {"image": "https://github.com/SteveDataAnalyst/SDO/raw/main/quiz-pics/q26.jpg",
-     "text": "您收到来自未知来源的消息",
+     "text": "您收到一则未知来源的信息, 信息内容如下：'上次账单,我们相信我们已经向您收取了两次费用。因此，我们已向您退还342.54新元. 请按照以下说明存入您的退款'",
      "question": "您应该点击“Process”按钮吗",
      "selection": [
          "点击'Process' 按钮.",
@@ -224,7 +225,7 @@ chinese_scam_question_data = [
             "\n1) 不要点击邮件中的任何附件或链接，因为这通常会导致将病毒或恶意软件安 装到您的设备中. 不要理会并删除此邮件."
             "\n2) 上网游览 www.scamalert.sg 以了解更多关于诈骗信息，或拨打反诈骗热线 1800-722-6688."},
     {"image": "https://github.com/SteveDataAnalyst/SDO/raw/main/quiz-pics/q27.jpg",
-     "text": "您收到来自未知来源的消息",
+     "text": "您收到来卖家消息，信息内容如下：'您好，感谢您对本商品的关注。我们可以在Whatsapp上继续聊吗？我也比较喜欢通过银行转帐付款'",
      "question": "您要怎样回复？",
      "selection": [
          "'不，谢谢！'",
@@ -234,7 +235,7 @@ chinese_scam_question_data = [
             "\n1) 在线下单时, 坚持平台内使用官方认可支付方式或货到付款方式."
             "\n2）拒绝对方要在其他平台进行交易的请求. 坚决在官方认可的平台进行 交易"},
     {"image": "https://github.com/SteveDataAnalyst/SDO/raw/main/quiz-pics/q28.jpg",
-     "text": "您收到来自未知来源的消息",
+     "text": "您收到一则未知来源的信息, 信息内容如下：'嗨老板，我是来自Fast Cash Sg 的Sam Chua。我的老板把你介绍给我，我真的希望很快能收到你的来信。$500-$10,000 将在10分钟内获得批准'",
      "question": "您要怎样回复？",
      "selection": [
          "'不'",
@@ -244,7 +245,7 @@ chinese_scam_question_data = [
             "\n1) 不要理会来历不明的任何贷款广告. 持牌放债人不得做广告."
             "\n2) 仅使用合法机构。仅向在放债人登记处注册的合法金融机构寻求财务帮助 ，网址为 https://rom.mlaw.gov.sg/information-for-borrowers/list-of-licensed-moneylenders-in-Singapore/"},
     {"image": "https://github.com/SteveDataAnalyst/SDO/raw/main/quiz-pics/q29.jpg",
-     "text": "您收到来自未知来源的消息",
+     "text": "您收到一则未知来源的信息, 信息内容如下:'您好，欢迎来到我的顶级投资俱乐部群.首先我叫Mike，专注投资港股. 同时也对新加坡、马来西亚和美国的股票进行研究。朋友们，有什么股票问题可以找我帮你分析'",
      "question": " 您要怎样回复？",
      "selection": ["跟从指示进行投资.", "不必理会, 同时离开组群."],
      "answer": "不必理会, 同时离开组群.",
@@ -252,7 +253,7 @@ chinese_scam_question_data = [
             "\n1) 承诺超高回报率听起来好到难以置信，通常是骗局."
             "\n2)他们一般上自称为投资专家."},
     {"image": "https://github.com/SteveDataAnalyst/SDO/raw/main/quiz-pics/q30.jpg",
-     "text": "您接到一个声称来自最高法院的电话",
+     "text": "您接到一个声称来自最高法院的电话，信息内容如下: '你好，这里是最高法院。您在高等法院有未决的法庭案件。为了收集您的法庭文件，您需要提供您的身份证并付款.' ",
      "question": " 您要怎样回复？",
      "selection": [
          "'不,没兴趣'",
@@ -416,3 +417,4 @@ chinese_general_question_data = [
      "why": "\n 1) 在进行交易时，用户所获取的一次性密(OTP)不可与他人分享。"
             "\n 2) 若一次性密码泄露给了诈骗者，对方就可以使用手机的银行应用程序来操控您的银行账户、更改您帐户里的注册手机号码为他们的号码。当帐户在进行在线购物或转帐时；您将不会受到通知."}
 ]
+
