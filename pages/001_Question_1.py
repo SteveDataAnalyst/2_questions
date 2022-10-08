@@ -49,15 +49,17 @@ with placeholder.container():
             elif language == 'chinese':
                 st.error("抱歉！您答错了")
                 st.error(f"分数: {scoring}")
-                st.error(f"请向数字大使寻求帮助: {question_no[0] + 1}")
+                st.error(f"请向数码大使寻求帮助: {question_no[0] + 1}")
             st.session_state['correctness'] = False
             correctness = "Wrong"
         question_number = question_no[0]+1
 
         st.write(reason)
         st.session_state['scores'] = scoring
-
-        submit_qns = st.button("Next Question")
+        if language == 'english':
+            submit_qns = st.button("👉Next Question")
+        elif language == 'chinese':
+            submit_qns = st.button("👉下一个问提")
         if submit_qns:
             st.session_state.df.append({"Question_type": "scam", "Question_number": question_number, "Correctness": correctness})
             placeholder.empty()

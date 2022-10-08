@@ -105,8 +105,8 @@ chinese_scam_question_data = [
     {"image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSrDFisFnpkf7Ov88wrEspSHe-bAB2Si6lcg&usqp=CAU",
     "text": "您想联系您的银行以查询您的信用卡账单. 在使用谷歌游览器搜索银行的联系电话时, 银行的联系电话号码就出现在网页的前面几行.",
     "question": "您应当怎样做？",
-    "selection": ["拨打谷歌搜索网站上列出的电话号码", "不可随意相信从谷歌游览器搜索到银行的联系电话时. 必须确定号码是取自官方银行网页."],
-    "answer": "不可随意相信从谷歌游览器搜索到银行的联系电话时. 必须确定号码是取自官方银行网页.",
+    "selection": ["拨打谷歌搜索网站上列出的电话号码", "不可随意相信从谷歌游览器搜索到银行的联系电话. 必须确定号码是取自官方银行网页."],
+    "answer": "不可随意相信从谷歌游览器搜索到银行的联系电话. 必须确定号码是取自官方银行网页.",
     "why": "\n1) 始终使用官方银行网站上列出的号码或银行发行的官方卡后面的号码来验 证从其他管道所得到的银行电话号码."
            "\n2) 在谷歌上找到的号码可能是取自诈骗集团的网页."},
     {"image": "https://micdn-13a1c.kxcdn.com/images/sg/content-images/social_media_scam.jpg",
@@ -354,8 +354,8 @@ chinese_general_question_data = [
      "question": "选 A, B, C, D 还是 E",
      "selection": ["A) 立即更换您的密码，所有其他帐户都使用相同的密码也必须更换",
                    "B) 请通知您的银行如果 您的信用卡资料已经泄漏",
-                   "C) 留意您的帐户是否有不寻常和未经授权的提款; 或用来购买物品"
-                   "D) 如果有任何资金上的损失, 确记报警"
+                   "C) 留意您的帐户是否有不寻常和未经授权的提款; 或用来购买物品",
+                   "D) 如果有任何资金上的损失, 确记报警",
                    "E) 以上所有"],
      "answer": "E) 以上所有",
      "why": "You may have accidentally clicked on the phishing link or redirected to the website. Make sure to follow all steps as mentioned"},

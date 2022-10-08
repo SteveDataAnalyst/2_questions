@@ -53,7 +53,7 @@ with placeholder.container():
             elif language == 'chinese':
                 st.error("抱歉！您答错了")
                 st.error(f"分数: {scoring}")
-                st.error(f"请向数字大使寻求帮助: {question_no[1] + 1}")
+                st.error(f"请向数码大使寻求帮助: {question_no[1] + 1}")
             st.session_state['correctness'] = False
             correctness = "Wrong"
         question_number = question_no[1]+1
