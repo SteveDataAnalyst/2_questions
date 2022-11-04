@@ -1,6 +1,6 @@
 english_scam_question_data = [
     {"image": "https://sgscamcheck.com/wp-content/uploads/2022/04/Screen_Shot_2022-04-21_at_11.53.05_AM-removebg-preview.png",
-     "text": "You received an email stating that you can claim a huge inheritance of $500,000,000 from a distant relative; but you first need to pay an administrative fee of $500 to release the funds.",
+     "text": "You received an email stating that you can claim a huge inheritance of 500,000,000 dollars from a distant relative; but you first need to pay an administrative fee of $500 to release the funds.",
      "question": "❓What should you do?",
      "selection": ["Ignore and delete the email", "Pay them immediately! It's a small amount compared to $500,000,000."],
      "answer": "Ignore and delete the email",
@@ -129,8 +129,8 @@ english_scam_question_data = [
     "selection": ["Ignore the article", "Invest Immediately"],
     "answer": "Ignore the article",
     "why": "\n This is commonly known as Investment Scam."
-           "\n 1)Scammers may create fake articles about lucrative investment opportunities that look like they are from real news websites."
-           "\n 2)They may also add fake comments from famous people to convince you that this investment has been endorsed by them."},
+           "\n 1) Scammers may create fake articles about lucrative investment opportunities that look like they are from real news websites."
+           "\n 2) They may also add fake comments from famous people to convince you that this investment has been endorsed by them."},
     {"image": "https://github.com/SteveDataAnalyst/SDO/raw/main/quiz-pics/q17.jpg",
     "text": "You received the message from an unknown source",
     "question": "❓Should you reply the message ?",
