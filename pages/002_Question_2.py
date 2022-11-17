@@ -26,6 +26,8 @@ with placeholder.container():
         with st.form("Question"):
             st.subheader(ask)
             answer_select = st.radio("", select)
+            st.write(" ")
+            st.write(" ")
             if language == 'english':
                 submit_answer = st.form_submit_button("Submit")
             elif language == 'chinese':
