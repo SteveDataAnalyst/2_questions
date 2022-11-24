@@ -1,5 +1,7 @@
 import streamlit as st
 import time
+from random import randint
+
 
 def set_page():
     st.set_page_config(initial_sidebar_state="collapsed",

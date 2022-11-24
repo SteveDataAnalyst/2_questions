@@ -1,3 +1,5 @@
+import random
+
 import streamlit as st
 from uility import set_page
 from streamlit_extras.switch_page_button import switch_page
@@ -14,14 +16,16 @@ with placeholder.container():
     with top1:
         st.subheader(f"Question: 1")
     question_no = st.session_state['scam_question_list']
-    image, text, ask, select, answer, reason = st.session_state['scam_operation'].return_values(question_no[0])
+    image, text, ask, select, answer = st.session_state['scam_operation'].return_values(question_no[0])
     st.image(image, width=400)
     st.markdown(text)
     placeholder1 = st.empty()
     with placeholder1.container():
         with st.form("Question"):
             st.subheader(ask)
-            answer_select = st.radio("", select)
+            if "rn" not in st.session_state:
+                st.session_state.rn = random.sample(select, len(select))
+            answer_select = st.radio("", st.session_state.rn)
             st.write(" ")
             st.write(" ")
             if language == 'english':
@@ -56,14 +60,14 @@ with placeholder.container():
             correctness = "Wrong"
         question_number = question_no[0]+1
 
-        st.write(reason)
         st.session_state['scores'] = scoring
         if language == 'english':
             submit_qns = st.button("👉Next Question")
         elif language == 'chinese':
             submit_qns = st.button("👉下一个问提")
         if submit_qns:
-            st.session_state.df.append({"Question_type": "scam", "Question_number": question_number, "Correctness": correctness})
+            #st.session_state.df.append({"Question_type": "scam", "Question_number": question_number, "Correctness": correctness})
             placeholder.empty()
             del st.session_state["load_state_1"]
+            del st.session_state["rn"]
             switch_page("question 2")

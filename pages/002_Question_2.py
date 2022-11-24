@@ -1,6 +1,7 @@
 import streamlit as st
 from uility import set_page
 from streamlit_extras.switch_page_button import switch_page
+import random
 
 set_page()
 
@@ -16,7 +17,7 @@ with placeholder.container():
     with top1:
         st.subheader(f"Question: 2")
     question_no = st.session_state['scam_question_list']
-    image, text, ask, select, answer, reason = st.session_state['scam_operation'].return_values(question_no[1])
+    image, text, ask, select, answer = st.session_state['scam_operation'].return_values(question_no[1])
 
 
     st.image(image, width=400)
@@ -25,7 +26,9 @@ with placeholder.container():
     with placeholder1.container():
         with st.form("Question"):
             st.subheader(ask)
-            answer_select = st.radio("", select)
+            if "rn" not in st.session_state:
+                st.session_state.rn = random.sample(select, len(select))
+            answer_select = st.radio("", st.session_state.rn)
             st.write(" ")
             st.write(" ")
             if language == 'english':
@@ -59,7 +62,7 @@ with placeholder.container():
             st.session_state['correctness'] = False
             correctness = "Wrong"
         question_number = question_no[1]+1
-        st.write(reason)
+
         st.session_state['scores'] = scoring
         if language == 'english':
             submit_qns = st.button("Finish")
@@ -68,4 +71,5 @@ with placeholder.container():
         if submit_qns:
             placeholder.empty()
             del st.session_state["load_state_2"]
+            del st.session_state["rn"]
             switch_page("congratz")
