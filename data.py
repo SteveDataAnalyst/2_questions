@@ -89,7 +89,7 @@ english_scam_question_data = [
      "text": "Mrs Ong received an email from her telcoservice provider that her internet usage has exceeded and an amount of $500 is demanded to be transferred through an online e-payment link.",
      "question": "❓What should you advise her to do?",
      "selection": ["Ignore and delete the email", "Click on the attachment to ascertain the source", "Make the payment online", "Reply to the email to ask for more details"],
-     "answer": "Hang up immediately"},
+     "answer": "Ignore and delete the email"},
 
     # 14
     {"image": "https://img.freepik.com/premium-vector/password-security-access-push-notice-laptop-computer_212005-90.jpg",
