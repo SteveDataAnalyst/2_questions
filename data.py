@@ -2,10 +2,10 @@ english_scam_question_data = [
     # 1
     {
         "image": "https://sgscamcheck.com/wp-content/uploads/2022/04/Screen_Shot_2022-04-21_at_11.53.05_AM-removebg-preview.png",
-        "text": "You received an email stating that you can claim a huge inheritance of $500,000,000 from a distant relative; but you first need to pay an administrative fee of $500 to release the funds.",
+        "text": "You received an email stating that you can claim a huge inheritance of 500,000,000 dollars from a distant relative, but you first need to pay an administrative fee of 500 dollars to release the funds.",
         "question": "❓What should you do?",
         "selection": ["Ignore and delete the email",
-                      "Pay them immediately! It's a small amount compared to $500,000,000."],
+                      "Pay them immediately! It's a small amount compared to 500,000,000 dollars."],
         "answer": "Ignore and delete the email"},
     # 2
     {"image": "https://www.investright.org/wp-content/uploads/2022/03/blog-nasaa-top-investor-threats.jpg",
@@ -57,7 +57,7 @@ english_scam_question_data = [
         "answer": "Tell her to identify herself and hang up the call if she refuses"},
     # 9
     {"image": "https://cdn.buttercms.com/q02491pxQUagd60lFHzQ",
-     "text": "You receive an urgent souding call with the caller claiming that your son has been involved in a car accident that requires $5,000 for an urgent operation. When you tried to ask questions, he brushes you off by saying that your son's life is more important.",
+     "text": "You receive an urgent call with the caller claiming that your son has been involved in a car accident that requires $5,000 for an urgent operation. When you tried to ask questions, he brushes you off by saying that your son's life is more important.",
      "question": "❓Should you transfer the money immediately ?",
      "selection": ["Transfer the money immediately to his account to save your son's life",
                    "Don't transfer anything! Call your son or any family members to verify the situation first."],
@@ -148,7 +148,84 @@ english_scam_question_data = [
          "Website has the State Crest of Singapore",
          "URL starts with https://",
          "Website has a QR code to authenticate login"],
-     "answer": "URL ends in .gov.sg"}
+     "answer": "URL ends in .gov.sg"},
+
+    #20
+    {"image": "https://ohsem.me/wp-content/uploads/2022/01/ShopeeAlert-1.jpg",
+     "text": "A casual friend asked for me to share my Shopee account with her so that she can buy some discounted items.",
+     "question": "❓ What should I do?",
+     "selection": [
+         "I should advise her to sign up for a new account so that she no longer needs someone to assist her.",
+         "I should give her my login ID and password so that she can receive the discount.",
+         "I should give her my login ID and password to make the purchase. Once she is done, I'll change the password.",
+         "Ask her to screenshot the items she wants to purchase and for her credit card details so I can process the order."],
+     "answer": "I should advise her to sign up for a new account so that she no longer needs someone to assist her."},
+
+    # 21
+    {"image": "https://img.freepik.com/free-vector/global-data-security-personal-data-security-cyber-data-security-online-concept-illustration-internet-security-information-privacy-protection_1150-37350.jpg",
+     "text": "You suspect that you have fallen victim to a scam and have suffered a monetary loss.",
+     "question": "❓ What should you do?",
+     "selection": [
+         "I will immediately notify my bank to freeze my account and file a police report.",
+         "Try to contact the scammer to get your money back.",
+         "Call '999' immediately because this is an emergency.",
+         "Keep quiet and do not tell anyone to avoid embarrassment and try to handle the situation yourself."],
+     "answer": "I will immediately notify my bank to freeze my account and file a police report."},
+
+    # 22
+    {"image": "https://img.freepik.com/free-vector/data-protection-concept-laptop-with-files-connection-shiled-sign_613284-974.jpg",
+     "text": "What is the mark of a secure website?",
+     "question": "❓ Please select one option",
+     "selection": [
+         "URL begins with 'https://'",
+         "URL begins with 'http://'",
+         "Website connects and loads quickly.",
+         "URL starts and begins with 'www.' and '.com.sg'."],
+     "answer": "URL begins with 'https://'"},
+
+    # 23
+    {"image": "https://img.freepik.com/free-vector/phishing-account-concept_23-2148532228.jpg",
+     "text": "You saw an online advertisement for a lucky draw. To qualify, you need to provide your NRIC number and full name.",
+     "question": "❓ What should you do?",
+     "selection": [
+         "It’s a phishing website. Do not key in any details.",
+         "I'll provide my name in full and omit the last alphabet so the NRIC is incomplete.",
+         "I'll provide my name in full and replace the first 2 digits of my NRIC with '**'.",
+         "I'll provide my NRIC but only state my alias."],
+     "answer": "It’s a phishing website. Do not key in any details."},
+
+    # 24
+    {"image": "https://img.freepik.com/free-vector/flat-wifi-zone-concept-with-signal_23-2148190599.jpg",
+     "text": "When using your devices in public, how should you limit your exposure to security risks?",
+     "question": "❓ Please select one option",
+     "selection": [
+         "Disable automatic connectivity for my devices, so that I do not automatically connect to unknown open public Wi-Fi networks that may be malicious.",
+         "Use my phone only in secluded public areas so that other people do not look at my screen.",
+         "Turn off my Wi-Fi, mobile data and Bluetooth so I do not connect to the Internet or any other devices.",
+         "Switch off my mobile devices completely so I am not exposed to any risks."],
+     "answer": "Disable automatic connectivity for my devices, so that I do not automatically connect to unknown open public Wi-Fi networks that may be malicious."},
+
+    # 24
+    {"image": "https://img.freepik.com/free-vector/tiny-people-carrying-key-open-padlock_74855-16292.jpg",
+     "text": "Which of the following is a requirement for a strong password?",
+     "question": "❓ Please select one option",
+     "selection": [
+         "A mix of random alphanumeric characters and symbols, at least 12 characters long.",
+         "To include your personal information such as NRIC or birthdate.",
+         "All lowercase or uppercase letters.",
+         "It follows obvious patterns, such as replacing a letter with anumber or symbol, e.g. p@ssw0rd."],
+     "answer": "A mix of random alphanumeric characters and symbols, at least 12 characters long."},
+
+    # 25
+    {"image": "https://img.freepik.com/free-photo/side-view-male-hacker-talking-smartphone-with-copy-space_23-2148578155.jpg",
+     "text": "An individual you met online recently asked you to accept a transfer in USD since you have a multi-currency account. The individual will pay you 500 USD for helping to accept the transfer. ",
+     "question": "❓ What should you do?",
+     "selection": [
+         "Refuse the transfer request. It is an offense to receive and transfer funds for others if such monies are criminal proceeds.",
+         "Ask the individual to pay you the 500 USD first if he is serious.",
+         "Tell the individual that you can only accept transfers of no more than 10,000 USD because any amount more than that will be illegal.",
+         "Negotiate with the individual to do multiple transfers in smaller transactions so that the authorities will not be alerted to transfers of significant amounts."],
+     "answer": "Refuse the transfer request. It is an offense to receive and transfer funds for others if such monies are criminal proceeds."},
 
 ]
 

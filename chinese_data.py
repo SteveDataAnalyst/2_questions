@@ -143,4 +143,74 @@ chinese_scam_question_data = [
                    "网站需要二维码来验证登录"],
      "answer": "网址以 .gov.sg 结尾"},
 
+    # 20
+    {"image": "https://ohsem.me/wp-content/uploads/2022/01/ShopeeAlert-1.jpg",
+     "text": "一位普通朋友要我与她分享我的Shopee帐户，以便她可以购买一些打折商品。",
+     "question": "❓我应该怎么办？",
+     "selection": ["建议她注册一个新帐户，这样她就不再需要人家的帮助。",
+                   "给她我的登录账号和密码，这样她才能获得折扣。",
+                   "给她我的登录账号和密码来进行购买。她完成后，我将更改密码。",
+                   "让她截图她想购买的商品和她的信用卡详细信息，以便我处理订单。"],
+     "answer": "建议她注册一个新帐户，这样她就不再需要人家的帮助。"},
+
+    # 21
+    {"image": "https://img.freepik.com/free-vector/global-data-security-personal-data-security-cyber-data-security-online-concept-illustration-internet-security-information-privacy-protection_1150-37350.jpg",
+     "text": "您怀疑自己已成为骗局的受害者并蒙受金钱上的损失。",
+     "question": "❓你该怎么办？",
+     "selection": ["立即通知银行并冻结账户，然后再通知警方。",
+                   "尝试联系诈骗集团以取回您的钱。",
+                   "立即拨打“999”，因为这是紧急情况。",
+                   "保持安静，不要告诉任何人以避免尴尬，并尝试自己处理这种情况。"],
+     "answer": "立即通知银行并冻结账户，然后再通知警方。"},
+
+    # 22
+    {"image": "https://img.freepik.com/free-vector/data-protection-concept-laptop-with-files-connection-shiled-sign_613284-974.jpg",
+     "text": "安全网站的标准是什么？",
+     "question": "❓请选择其中之一",
+     "selection": ["网址以'https://'开头。",
+                   "网址以'http://'开头。",
+                   "网站连接和下载速度表现得很快。",
+                   "网址以'www.”开头。和“.com.sg'。"],
+     "answer": "网址以'https://'开头。"},
+
+    # 23
+    {"image": "https://img.freepik.com/free-vector/phishing-account-concept_23-2148532228.jpg",
+     "text": "你看到了一个关于幸运抽奖的在线广告。如果要获得资格，您需要提供您的身份证号码和全名。",
+     "question": "❓你该怎么办？",
+     "selection": ["这是一个钓鱼网站。不要输入任何细节。",
+                   "提供我的全名并更改名字的排位，这样就与身份证名字不一样",
+                   "提供全名并将登记号码的前两位数字替换为 '**'。",
+                   "提供身份证的全部资料，但只给姓名。"],
+     "answer": "这是一个钓鱼网站。不要输入任何细节。"},
+
+    # 24
+    {"image": "https://img.freepik.com/free-vector/flat-wifi-zone-concept-with-signal_23-2148190599.jpg",
+     "text": "在公共场合使用您的手机时，您应该如何限制暴露的风险？",
+     "question": "❓请选择其中之一",
+     "selection": ["禁止使用手机设备的自动连接，这样就不会自动连接到可能具有恶意的无线网络。",
+                   "只有在隐蔽的公共场所才使用我的手机，以避免其他人看我的屏幕。",
+                   "关闭手机的无线 ，移动数据和蓝牙功能，这样就不会连接到互联网或任何其他设备。",
+                   "完全关闭手机，这样就不会面临任何风险。"],
+     "answer": "禁止使用手机设备的自动连接，这样就不会自动连接到可能具有恶意的无线网络。"},
+
+    # 25
+    {"image": "https://img.freepik.com/free-vector/tiny-people-carrying-key-open-padlock_74855-16292.jpg",
+     "text": "以下哪项可以加强密码？",
+     "question": "❓请选择其中之一",
+     "selection": ["具有大小写的英文字母和标准符号的组合，并至少有12个字的长度。",
+                   "密码加入个人信息，例如身份证或生日。",
+                   "密码是完全小写或大写英文字母。",
+                   "用数字或标准符号替换部分的字母，例如'p@ssw0rd'。"],
+     "answer": "具有大小写的英文字母和标准符号的组合，并至少有12个字的长度。"},
+
+    # 26
+    {"image": "https://img.freepik.com/free-photo/side-view-male-hacker-talking-smartphone-with-copy-space_23-2148578155.jpg",
+     "text": "您最近在网上认识的一个人，他要求您用您的多币账户帮他转账。如果您答应的话，此人将给您500美元的酬劳。",
+     "question": "❓你该怎么办？",
+     "selection": ["拒绝他的请求。如果这笔资金是犯罪所得，那就是帮他人接收和转移资金，是属于犯法行为。",
+                   "如果他是认真的，请让他先付给您500美元。",
+                   "告诉此人您只能接受不超过10,000美元的转账，因为超过此金额是非法的。",
+                   "问他可否进行多次较小的交易转账，这样当局就不会收到大额转账的警报。"],
+     "answer": "拒绝他的请求。如果这笔资金是犯罪所得，那就是帮他人接收和转移资金，是属于犯法行为。"},
+
 ]
