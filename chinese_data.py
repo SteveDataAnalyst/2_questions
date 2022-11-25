@@ -117,10 +117,10 @@ chinese_scam_question_data = [
     {"image": "https://raw.githubusercontent.com/SteveDataAnalyst/SDO/main/question17_chinese.png",
      "text": "",
      "question": "❓您觉得哪个卖家最可靠 ？",
-     "selection": ["卖家D：有很多5星评价，也通过多种方式验证，在网站已有相当长的时间",
+     "selection": ["卖家 D：有很多5星评价，也通过多种方式验证，在网站已有相当长的时间",
                    "卖家 A：尽管已验证，但评分还是较低",
                    "卖家 B：帐户创建时间已久，但似乎处于休眠状态",
-                   "C：用户名看起来不假，并帐户创建已有一段时间，但只拥有一个人的评价"],
+                   "卖家 C：用户名看起来不假，并帐户创建已有一段时间，但只拥有一个人的评价"],
      "answer": "卖家D：有很多5星评价，也通过多种方式验证，在网站已有相当长的时间"},
 
     # 18
