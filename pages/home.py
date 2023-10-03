@@ -28,8 +28,7 @@ def main_page():
             st.write("")
             st.write("")
             st.image(
-                "https://www.csa.gov.sg/-/media/Csa/Images/Programmes/SG-Cyber-Safe-Seniors/How-Cyber-Safe-Are"
-                "-You-Quiz-Banner_600px.jpg")
+                "https://www.csa.gov.sg/images/default-source/our-programmes/unseen-enemy/unseen-enemy-baner-2023.jpg")
             submitted = st.button("Let's go!")
         elif language == 'chinese':
             st.title("有奖问答题 (马林百列)")
