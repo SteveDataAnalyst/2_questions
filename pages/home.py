@@ -40,9 +40,7 @@ def main_page():
             st.markdown(string_2, unsafe_allow_html=True)
             st.write("")
             st.write("")
-            st.image(
-                "https://www.csa.gov.sg/-/media/Csa/Images/Programmes/SG-Cyber-Safe-Seniors/How-Cyber-Safe-Are"
-                "-You-Quiz-Banner_600px.jpg")
+            st.image("https://www.csa.gov.sg/images/default-source/our-programmes/unseen-enemy/unseen-enemy-baner-2023.jpg")
             submitted = st.button("开始！！")
 
     if submitted:
